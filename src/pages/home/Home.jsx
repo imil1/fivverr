@@ -31,7 +31,7 @@ const Home = () => {
                         <h2>страшна вырубай 🦵🏻💩🦵🏻</h2>
                         <div className='title'>
                             <img
-                                src='./img/check.png'
+                                src='/img/check.png'
                                 alt=''
                             />
                             The best for every budget
@@ -39,7 +39,7 @@ const Home = () => {
                         <p>Find high-quality services at every price point.</p>{' '}
                         <div className='title'>
                             <img
-                                src='./img/check.png'
+                                src='/img/check.png'
                                 alt=''
                             />
                             The best for every budget
@@ -47,7 +47,7 @@ const Home = () => {
                         <p>Find high-quality services at every price point.</p>{' '}
                         <div className='title'>
                             <img
-                                src='./img/check.png'
+                                src='/img/check.png'
                                 alt=''
                             />
                             The best for every budget
@@ -57,7 +57,7 @@ const Home = () => {
                     <div className='item'>
                         <video
                             height={300}
-                            src='./img/video.MOV'
+                            src='/img/video.MOV'
                             controls
                         ></video>
                     </div>
@@ -70,13 +70,13 @@ const Home = () => {
                       <h2>A business solution design for teams</h2>
                       <p>Upgrade to a curated experience packed with tools and benefits, dedicated to businesses</p>
                       <div className='title'> 
-                        <img src='./img/check.png' alt='check'/>
+                        <img src='/img/check.png' alt='check'/>
                         Connect to freelancers with proven business experience
                       </div> <div className='title'> 
-                        <img src='./img/check.png' alt='check'/>
+                        <img src='/img/check.png' alt='check'/>
                         Connect to freelancers with proven business experience
                       </div> <div className='title'> 
-                        <img src='./img/check.png' alt='check'/>
+                        <img src='/img/check.png' alt='check'/>
                         Connect to freelancers with proven business experience
                       </div>
                       <button>Explore Fiverr Business</button>

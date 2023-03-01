@@ -4,7 +4,7 @@ import './GigCard.scss';
 
 const GigCard = ({ item }) => {
     return (
-        <Link to='/gig/123'>
+        <Link to='/gig/123' className='link'>
             <div className='gigCard'>
                 <img
                     src={item.img}
@@ -21,7 +21,7 @@ const GigCard = ({ item }) => {
                     <p>{item.desc}</p>
                     <div className='star'>
                         <img
-                            src='./img/star.png'
+                            src='/img/star.png'
                             alt='star'
                         />
                         <span>{item.star}</span>
@@ -30,7 +30,7 @@ const GigCard = ({ item }) => {
                 <hr />
                 <div className='details'>
                     <img
-                        src='./img/heart.png'
+                        src='/img/heart.png'
                         alt='heart'
                     />
                     <div className='price'>
