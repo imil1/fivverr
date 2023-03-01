@@ -1,0 +1,23 @@
+*{
+    .link {
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+*::selection {
+    background-color:lighten(#034b1b,20%);
+    color: rgb(255, 255, 255);
+  }
+  
+  ::-webkit-scrollbar {
+    width: 15px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #ddd;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: lighten(#034b1b,20%);
+    border-radius: 14px;
+  }
